@@ -32,8 +32,8 @@ h2{
     background-color: cornflowerblue;
 }
 section{
-    margin: auto;
-    width: 300px;
+    margin: 10px;
+    width: relative;
     position: relative;
     height: 250px;
     padding-top: 30px;
@@ -97,8 +97,17 @@ section{
   }
   
 #sec3{
-    width: 82%;
+    width: absolute;
+    height: auto;
 }
+    #sec1{
+        width: 90%;
+        height: auto;
+    }
+    #sec2{
+        width: 90%;
+        height: auto;
+    }
   
   .col-TB-1 {
     width: 8.33%;
@@ -140,8 +149,17 @@ section{
 @media (min-width: 0px) and (max-width: 767px) {
   .col-MB-1, .col-MB-2, .col-MB-3, .col-MB-4, .col-MB-5, .col-MB-6, .col-MB-7, .col-MB-8, .col-MB-9, .col-MB-10, .col-MB-11, .col-MB-12 {
     float: left;
-    margin-bottom:  20px;  
+    margin-bottom:  20px;
   }
+    #sec1{
+        height: auto;
+    }
+    #sec2{
+        height: auto;
+    }
+    #sec3{
+        height: auto;
+    }
   .col-MB-1 {
     width: 8.33%;
   }
