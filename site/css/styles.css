@@ -100,15 +100,7 @@ section{
     width: absolute;
     height: auto;
 }
-    #sec1{
-        width: 90%;
-        height: auto;
-    }
-    #sec2{
-        width: 90%;
-        height: auto;
-    }
-  
+    
   .col-TB-1 {
     width: 8.33%;
   }
