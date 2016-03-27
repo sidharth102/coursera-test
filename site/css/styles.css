@@ -3,13 +3,15 @@
     }
 body{
     background-color: cornsilk;
-    margin: 10px;
+    margin: auto;
 }
 
 h1{
-	margin-bottom: 15px;
+	padding: 10px;
+    margin-bottom: 15px;
 	text-align: center;
 	font-family: Helvetica;
+    color: darkcyan;
 }
 h2{
     text-align: center;
@@ -19,20 +21,21 @@ h2{
     margin: 0px;
     padding: 0px;
     position: relative;
-    left: 190px;
+    left: 193px;
     border: 1px solid black;
 }
 section{
 	width: 300px;
     height: 250px;
     padding-top: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     padding-left: 5px;
     padding-right: 5px;
     background-color: grey;
 	font-family: Times New Roman;
 	color: white;
     border: 1px solid black;
+    margin: auto;
 
 }
 .row{
@@ -42,18 +45,21 @@ section{
 	.col-lg-4{
 		float: left;
 		width: 33%;
+        margin: auto;
 	}
     
 }
 @media(min-width: 768px) and (max-width: 991px){
-	.col-md-6{
-		float: left;
-		width: 50%;
-	}
+    .col-md-6{
+        width: 50%;
+        margin-bottom: 20px;
+        float: left;
+    }
 }
 @media(max-width: 767px){
     .col-sl-12{
         float: left;
         width: 100%;
+        margin-bottom: 20px;
     }
 }
